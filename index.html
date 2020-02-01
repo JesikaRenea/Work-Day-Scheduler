@@ -34,5 +34,22 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <script>
+
+(function()
+{  // instantiate a moment object
+  var NowMoment = moment().format('MMMM Do YYYY, h:mm a');
+    // display value of moment object in #displayMoment div
+  var eDisplayMoment = document.getElementById('currentDay');
+  eDisplayMoment.innerHTML = NowMoment;
+  })();
+
+
+</script>
+    
+  
+
+
   </body>
 </html>
