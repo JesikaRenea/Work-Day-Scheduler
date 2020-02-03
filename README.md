@@ -13,12 +13,12 @@ The background of the hourly rows will change as the day continues to represent 
 -----
 ## Functional Deployed Application Links:
 
-
+https://jesikarenea.github.io/Work-Day-Scheduler/
 
 -----
 ## Screenshots of Activity
 
 
-![Daily Schedule](test.png)
+![Work-Day-Scheduler](test.png)
 
 
