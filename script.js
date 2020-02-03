@@ -29,7 +29,8 @@ $(document).ready(function () {
         $rowDiv.addClass('row', 'plannerRow').attr('hour-index', hour);
 
         let $timeDiv = $('<div>');
-        $timeDiv.addClass('col-md-2');
+        $timeDiv.addClass('col-md-1');
+        $timeDiv.addClass("hour");
 
         var $timeBoxSpn = $('<span>');
 
@@ -56,13 +57,15 @@ $(document).ready(function () {
         $dailyPlanSpn.val(planTextArr[index]);
 
         let $inputCol = $('<div>');
-        $inputCol.addClass('col-md-9');
+        $inputCol.addClass('col-md-10');
+        $inputCol.addClass('description');
 
         $rowDiv.append($inputCol);
         $inputCol.append($dailyPlanSpn);
 
         let $saveCol = $('<div>');
         $saveCol.addClass('col-md-1');
+        $saveCol.addClass('saveBtn');
 
         let $saveBtn = $('<i>');
         $saveBtn.attr('id', `saveid-${index}`);
