@@ -66,12 +66,14 @@ $(document).ready(function () {
         let $saveCol = $('<div>');
         $saveCol.addClass('col-md-1');
         $saveCol.addClass('saveBtn');
+        $saveCol.addClass('saveBtn i:hover');
+
 
         let $saveBtn = $('<i>');
         $saveBtn.attr('id', `saveid-${index}`);
         $saveBtn.attr('save-id', index);
         $saveBtn.attr('class', "far fa-save saveIcon");
-        $saveBtn.addClass('saveBtn')
+      //  $saveBtn.addClass('saveBtn i:hover');
 
         $rowDiv.append($saveCol);
         $saveCol.append($saveBtn);
