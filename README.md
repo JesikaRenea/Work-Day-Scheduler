@@ -19,6 +19,7 @@ https://jesikarenea.github.io/Work-Day-Scheduler/
 ## Screenshots of Activity
 
 
-![Work-Day-Scheduler](test.png)
+![Work-Day-Scheduler](/WDS_Screenshot.png)
+
 
 
